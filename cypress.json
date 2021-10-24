@@ -1,0 +1,9 @@
+{
+    "baseUrl": "https://www.saucedemo.com",
+    "ignoreTestFiles": "**/examples/*",
+    "testFiles": "**/*.{feature,features}",
+    "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporter-config.json"
+  }
+}
